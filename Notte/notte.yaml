@@ -1,0 +1,267 @@
+# ============================================================================
+#  Notte — tema per Home Assistant
+#  Palette derivata da wallpapers.robertobonfa.com (rampa "Notte", 8 stop)
+#
+#  S0 #0b0d21  S1 #151a3d  S2 #232a63  S3 #3a4494
+#  S4 #5a6ac9  S5 #8b9ae8  S6 #c3ccf7  S7 #f0f3ff
+#
+#  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
+#  rosso #e5556a  ocra #edb54b  verde #5cc99a  luce accesa #f2d16b
+#
+#  Autore: Roberto Bonfa — https://robertobonfa.com
+#  Licenza: MIT
+#  Versione: 1.0.0
+# ============================================================================
+
+Notte:
+  modes:
+    dark:
+      # ----------------------------------------------------------------
+      #  Colori base
+      # ----------------------------------------------------------------
+      primary-color: "#5a6ac9"
+      dark-primary-color: "#3a4494"
+      light-primary-color: "#8b9ae8"
+      accent-color: "#3a4494"
+
+      primary-background-color: "#0b0d21"
+      secondary-background-color: "#151a3d"
+      divider-color: "#232a63"
+      scrollbar-thumb-color: "#232a63"
+      disabled-color: "#232a63"
+
+      # ----------------------------------------------------------------
+      #  Testo
+      # ----------------------------------------------------------------
+      primary-text-color: "#f0f3ff"
+      secondary-text-color: "#c3ccf7"
+      text-primary-color: "#0b0d21"
+      text-accent-color: "#f0f3ff"
+      disabled-text-color: "#5a6076"
+      app-header-text-color: "#f0f3ff"
+      link-text-color: "#8b9ae8"
+      error-color: "#e5556a"
+      warning-color: "#edb54b"
+      success-color: "#5cc99a"
+      info-color: "#5a6ac9"
+
+      # ----------------------------------------------------------------
+      #  Card e superfici
+      # ----------------------------------------------------------------
+      card-background-color: "#151a3d"
+      ha-card-background: "#151a3d"
+      ha-card-border-radius: "12px"
+      ha-card-border-width: "1px"
+      ha-card-border-color: "#232a63"
+      ha-card-box-shadow: "0 2px 6px rgba(7, 8, 20, 0.45)"
+      paper-card-background-color: "#151a3d"
+      table-row-background-color: "#151a3d"
+      table-row-alternative-background-color: "#121635"
+      markdown-code-background-color: "#0b0d21"
+      code-editor-background-color: "#0b0d21"
+      mdc-theme-surface: "#151a3d"
+      mdc-theme-on-surface: "#f0f3ff"
+      mdc-theme-primary: "#5a6ac9"
+      mdc-theme-secondary: "#3a4494"
+      mdc-theme-on-primary: "#0b0d21"
+
+      # ----------------------------------------------------------------
+      #  Header / toolbar
+      # ----------------------------------------------------------------
+      app-header-background-color: "#0b0d21"
+      app-header-selection-bar-color: "#5a6ac9"
+      app-header-edit-background-color: "#232a63"
+      app-toolbar-background-color: "#0b0d21"
+      dark-primary-text-color: "#f0f3ff"
+
+      # ----------------------------------------------------------------
+      #  Sidebar
+      # ----------------------------------------------------------------
+      sidebar-background-color: "#0b0d21"
+      sidebar-icon-color: "#c3ccf7"
+      sidebar-text-color: "#c3ccf7"
+      sidebar-selected-icon-color: "#5a6ac9"
+      sidebar-selected-text-color: "#f0f3ff"
+      sidebar-hover-background-color: "#151a3d"
+
+      # ----------------------------------------------------------------
+      #  Sfondo Lovelace
+      #  Copia i PNG in <config>/www/notte/ prima di attivare il tema.
+      # ----------------------------------------------------------------
+      lovelace-background: "linear-gradient(180deg, rgba(11,13,33,0.55) 0%, rgba(11,13,33,0.75) 100%), url('/local/notte/notte-bg-2560x1440.png') center / cover no-repeat fixed"
+
+      # ----------------------------------------------------------------
+      #  Controlli: switch, slider, toggle
+      # ----------------------------------------------------------------
+      switch-checked-color: "#5a6ac9"
+      switch-checked-button-color: "#f0f3ff"
+      switch-checked-track-color: "#3a4494"
+      switch-unchecked-color: "#232a63"
+      switch-unchecked-button-color: "#c3ccf7"
+      switch-unchecked-track-color: "#232a63"
+
+      paper-slider-knob-color: "#5a6ac9"
+      paper-slider-knob-start-color: "#5a6ac9"
+      paper-slider-pin-color: "#3a4494"
+      paper-slider-pin-start-color: "#3a4494"
+      paper-slider-active-color: "#5a6ac9"
+      paper-slider-secondary-color: "#3a4494"
+      paper-slider-container-color: "#232a63"
+      paper-slider-disabled-active-color: "#232a63"
+      paper-slider-disabled-secondary-color: "#151a3d"
+
+      ha-slider-color: "#5a6ac9"
+      slider-color: "#5a6ac9"
+      slider-track-color: "#232a63"
+      slider-bar-color: "#3a4494"
+
+      # ----------------------------------------------------------------
+      #  Input, dialog, menu
+      # ----------------------------------------------------------------
+      input-fill-color: "#121635"
+      input-ink-color: "#f0f3ff"
+      input-label-ink-color: "#c3ccf7"
+      input-idle-line-color: "#232a63"
+      input-hover-line-color: "#5a6ac9"
+      input-disabled-fill-color: "#10142f"
+      input-disabled-ink-color: "#5a6076"
+      input-disabled-line-color: "#232a63"
+      input-outlined-idle-border-color: "#232a63"
+      input-outlined-hover-border-color: "#5a6ac9"
+      input-outlined-disabled-border-color: "#232a63"
+      input-dropdown-icon-color: "#c3ccf7"
+
+      material-background-color: "#151a3d"
+      material-secondary-background-color: "#0b0d21"
+      material-body-text-color: "#f0f3ff"
+      material-secondary-text-color: "#c3ccf7"
+      material-disabled-text-color: "#5a6076"
+
+      mdc-dialog-scrim-color: "rgba(7, 8, 20, 0.75)"
+      mdc-text-field-fill-color: "#121635"
+      mdc-text-field-ink-color: "#f0f3ff"
+      mdc-text-field-label-ink-color: "#c3ccf7"
+      mdc-text-field-idle-line-color: "#232a63"
+      mdc-text-field-hover-line-color: "#5a6ac9"
+      mdc-select-fill-color: "#121635"
+      mdc-select-ink-color: "#f0f3ff"
+      mdc-select-label-ink-color: "#c3ccf7"
+      mdc-select-idle-line-color: "#232a63"
+      mdc-select-hover-line-color: "#5a6ac9"
+      mdc-select-dropdown-icon-color: "#c3ccf7"
+
+      # ----------------------------------------------------------------
+      #  Grafici (history / statistics)
+      # ----------------------------------------------------------------
+      graph-header-border-color: "#232a63"
+      history-unavailable-color: "#232a63"
+      history-unknown-color: "#5a6076"
+      energy-grid-consumption-color: "#3a4494"
+      energy-grid-return-color: "#5cc99a"
+      energy-solar-color: "#edb54b"
+      energy-battery-out-color: "#8b9ae8"
+      energy-battery-in-color: "#5a6ac9"
+      energy-gas-color: "#b98ac9"
+      energy-water-color: "#7fb9d6"
+
+      # ----------------------------------------------------------------
+      #  Stati — fallback globali
+      # ----------------------------------------------------------------
+      state-icon-color: "#c3ccf7"
+      state-icon-active-color: "#8b9ae8"
+      state-active-color: "#8b9ae8"
+      state-inactive-color: "#5a6076"
+      state-unavailable-color: "#232a63"
+      state-icon-unavailable-color: "#232a63"
+
+      # ----------------------------------------------------------------
+      #  Stati — per dominio
+      # ----------------------------------------------------------------
+      state-alarm_control_panel-armed_away-color: "#5cc99a"
+      state-alarm_control_panel-armed_custom_bypass-color: "#5cc99a"
+      state-alarm_control_panel-armed_home-color: "#5cc99a"
+      state-alarm_control_panel-armed_night-color: "#5cc99a"
+      state-alarm_control_panel-armed_vacation-color: "#5cc99a"
+      state-alarm_control_panel-arming-color: "#edb54b"
+      state-alarm_control_panel-disarmed-color: "#8b9ae8"
+      state-alarm_control_panel-disarming-color: "#edb54b"
+      state-alarm_control_panel-pending-color: "#edb54b"
+      state-alarm_control_panel-triggered-color: "#e5556a"
+
+      state-alert-off-color: "#5a6076"
+      state-alert-on-color: "#e5556a"
+
+      state-automation-active-color: "#8b9ae8"
+
+      state-binary_sensor-active-color: "#8b9ae8"
+      state-binary_sensor-battery-on-color: "#e5556a"
+      state-binary_sensor-carbon_monoxide-on-color: "#e5556a"
+      state-binary_sensor-gas-on-color: "#e5556a"
+      state-binary_sensor-heat-on-color: "#e5556a"
+      state-binary_sensor-moisture-on-color: "#e5556a"
+      state-binary_sensor-problem-on-color: "#e5556a"
+      state-binary_sensor-safety-on-color: "#e5556a"
+      state-binary_sensor-smoke-on-color: "#e5556a"
+      state-binary_sensor-sound-on-color: "#edb54b"
+      state-binary_sensor-tamper-on-color: "#e5556a"
+
+      state-calendar-active-color: "#8b9ae8"
+      state-camera-active-color: "#8b9ae8"
+
+      state-climate-auto-color: "#5cc99a"
+      state-climate-cool-color: "#7fb9d6"
+      state-climate-dry-color: "#edb54b"
+      state-climate-fan_only-color: "#c3ccf7"
+      state-climate-heat-color: "#e5556a"
+      state-climate-heat_cool-color: "#b98ac9"
+
+      state-cover-active-color: "#8b9ae8"
+      state-device_tracker-active-color: "#5cc99a"
+      state-device_tracker-home-color: "#5cc99a"
+      state-device_tracker-not_home-color: "#5a6076"
+      state-fan-active-color: "#8b9ae8"
+      state-group-active-color: "#8b9ae8"
+      state-humidifier-active-color: "#8b9ae8"
+      state-input_boolean-active-color: "#8b9ae8"
+
+      state-light-active-color: "#f2d16b"
+
+      state-lock-jammed-color: "#e5556a"
+      state-lock-locked-color: "#5cc99a"
+      state-lock-locking-color: "#edb54b"
+      state-lock-open-color: "#e5556a"
+      state-lock-opening-color: "#edb54b"
+      state-lock-unlocked-color: "#e5556a"
+      state-lock-unlocking-color: "#edb54b"
+
+      state-media_player-active-color: "#8b9ae8"
+      state-person-active-color: "#5cc99a"
+      state-person-home-color: "#5cc99a"
+      state-person-not_home-color: "#5a6076"
+      state-plant-active-color: "#e5556a"
+      state-remote-active-color: "#8b9ae8"
+      state-schedule-active-color: "#8b9ae8"
+      state-script-active-color: "#8b9ae8"
+      state-siren-active-color: "#e5556a"
+      state-sun-above_horizon-color: "#edb54b"
+      state-sun-below_horizon-color: "#3a4494"
+      state-switch-active-color: "#8b9ae8"
+      state-timer-active-color: "#8b9ae8"
+      state-timer-paused-color: "#edb54b"
+
+      state-update-active-color: "#edb54b"
+      state-update-installing-color: "#8b9ae8"
+      state-update-off-color: "#5a6076"
+
+      state-vacuum-active-color: "#8b9ae8"
+
+      # ----------------------------------------------------------------
+      #  Badge e label
+      # ----------------------------------------------------------------
+      label-badge-background-color: "#151a3d"
+      label-badge-text-color: "#f0f3ff"
+      label-badge-red: "#e5556a"
+      label-badge-green: "#5cc99a"
+      label-badge-blue: "#5a6ac9"
+      label-badge-yellow: "#edb54b"
+      label-badge-grey: "#232a63"

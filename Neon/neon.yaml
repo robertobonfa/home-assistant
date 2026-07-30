@@ -1,0 +1,267 @@
+# ============================================================================
+#  Neon — tema per Home Assistant
+#  Palette derivata da wallpapers.robertobonfa.com (rampa "Neon", 8 stop)
+#
+#  S0 #0d0221  S1 #33095e  S2 #6a0dad  S3 #a319c4
+#  S4 #e01e84  S5 #ff2079  S6 #ff7ab6  S7 #ffd3e8
+#
+#  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
+#  rosso #ff3131  ocra #ffcc00  verde #00f5a0  luce accesa #fff275
+#
+#  Autore: Roberto Bonfa — https://robertobonfa.com
+#  Licenza: MIT
+#  Versione: 1.0.0
+# ============================================================================
+
+Neon:
+  modes:
+    dark:
+      # ----------------------------------------------------------------
+      #  Colori base
+      # ----------------------------------------------------------------
+      primary-color: "#e01e84"
+      dark-primary-color: "#a319c4"
+      light-primary-color: "#ff2079"
+      accent-color: "#a319c4"
+
+      primary-background-color: "#0d0221"
+      secondary-background-color: "#33095e"
+      divider-color: "#6a0dad"
+      scrollbar-thumb-color: "#6a0dad"
+      disabled-color: "#6a0dad"
+
+      # ----------------------------------------------------------------
+      #  Testo
+      # ----------------------------------------------------------------
+      primary-text-color: "#ffd3e8"
+      secondary-text-color: "#ff7ab6"
+      text-primary-color: "#0d0221"
+      text-accent-color: "#ffd3e8"
+      disabled-text-color: "#6b5b7a"
+      app-header-text-color: "#ffd3e8"
+      link-text-color: "#ff2079"
+      error-color: "#ff3131"
+      warning-color: "#ffcc00"
+      success-color: "#00f5a0"
+      info-color: "#e01e84"
+
+      # ----------------------------------------------------------------
+      #  Card e superfici
+      # ----------------------------------------------------------------
+      card-background-color: "#33095e"
+      ha-card-background: "#33095e"
+      ha-card-border-radius: "12px"
+      ha-card-border-width: "1px"
+      ha-card-border-color: "#6a0dad"
+      ha-card-box-shadow: "0 2px 6px rgba(8, 1, 20, 0.45)"
+      paper-card-background-color: "#33095e"
+      table-row-background-color: "#33095e"
+      table-row-alternative-background-color: "#28074d"
+      markdown-code-background-color: "#0d0221"
+      code-editor-background-color: "#0d0221"
+      mdc-theme-surface: "#33095e"
+      mdc-theme-on-surface: "#ffd3e8"
+      mdc-theme-primary: "#e01e84"
+      mdc-theme-secondary: "#a319c4"
+      mdc-theme-on-primary: "#0d0221"
+
+      # ----------------------------------------------------------------
+      #  Header / toolbar
+      # ----------------------------------------------------------------
+      app-header-background-color: "#0d0221"
+      app-header-selection-bar-color: "#e01e84"
+      app-header-edit-background-color: "#6a0dad"
+      app-toolbar-background-color: "#0d0221"
+      dark-primary-text-color: "#ffd3e8"
+
+      # ----------------------------------------------------------------
+      #  Sidebar
+      # ----------------------------------------------------------------
+      sidebar-background-color: "#0d0221"
+      sidebar-icon-color: "#ff7ab6"
+      sidebar-text-color: "#ff7ab6"
+      sidebar-selected-icon-color: "#e01e84"
+      sidebar-selected-text-color: "#ffd3e8"
+      sidebar-hover-background-color: "#33095e"
+
+      # ----------------------------------------------------------------
+      #  Sfondo Lovelace
+      #  Copia i PNG in <config>/www/neon/ prima di attivare il tema.
+      # ----------------------------------------------------------------
+      lovelace-background: "linear-gradient(180deg, rgba(13,2,33,0.55) 0%, rgba(13,2,33,0.75) 100%), url('/local/neon/neon-bg-2560x1440.png') center / cover no-repeat fixed"
+
+      # ----------------------------------------------------------------
+      #  Controlli: switch, slider, toggle
+      # ----------------------------------------------------------------
+      switch-checked-color: "#e01e84"
+      switch-checked-button-color: "#ffd3e8"
+      switch-checked-track-color: "#a319c4"
+      switch-unchecked-color: "#6a0dad"
+      switch-unchecked-button-color: "#ff7ab6"
+      switch-unchecked-track-color: "#6a0dad"
+
+      paper-slider-knob-color: "#e01e84"
+      paper-slider-knob-start-color: "#e01e84"
+      paper-slider-pin-color: "#a319c4"
+      paper-slider-pin-start-color: "#a319c4"
+      paper-slider-active-color: "#e01e84"
+      paper-slider-secondary-color: "#a319c4"
+      paper-slider-container-color: "#6a0dad"
+      paper-slider-disabled-active-color: "#6a0dad"
+      paper-slider-disabled-secondary-color: "#33095e"
+
+      ha-slider-color: "#e01e84"
+      slider-color: "#e01e84"
+      slider-track-color: "#6a0dad"
+      slider-bar-color: "#a319c4"
+
+      # ----------------------------------------------------------------
+      #  Input, dialog, menu
+      # ----------------------------------------------------------------
+      input-fill-color: "#28074d"
+      input-ink-color: "#ffd3e8"
+      input-label-ink-color: "#ff7ab6"
+      input-idle-line-color: "#6a0dad"
+      input-hover-line-color: "#e01e84"
+      input-disabled-fill-color: "#200640"
+      input-disabled-ink-color: "#6b5b7a"
+      input-disabled-line-color: "#6a0dad"
+      input-outlined-idle-border-color: "#6a0dad"
+      input-outlined-hover-border-color: "#e01e84"
+      input-outlined-disabled-border-color: "#6a0dad"
+      input-dropdown-icon-color: "#ff7ab6"
+
+      material-background-color: "#33095e"
+      material-secondary-background-color: "#0d0221"
+      material-body-text-color: "#ffd3e8"
+      material-secondary-text-color: "#ff7ab6"
+      material-disabled-text-color: "#6b5b7a"
+
+      mdc-dialog-scrim-color: "rgba(8, 1, 20, 0.75)"
+      mdc-text-field-fill-color: "#28074d"
+      mdc-text-field-ink-color: "#ffd3e8"
+      mdc-text-field-label-ink-color: "#ff7ab6"
+      mdc-text-field-idle-line-color: "#6a0dad"
+      mdc-text-field-hover-line-color: "#e01e84"
+      mdc-select-fill-color: "#28074d"
+      mdc-select-ink-color: "#ffd3e8"
+      mdc-select-label-ink-color: "#ff7ab6"
+      mdc-select-idle-line-color: "#6a0dad"
+      mdc-select-hover-line-color: "#e01e84"
+      mdc-select-dropdown-icon-color: "#ff7ab6"
+
+      # ----------------------------------------------------------------
+      #  Grafici (history / statistics)
+      # ----------------------------------------------------------------
+      graph-header-border-color: "#6a0dad"
+      history-unavailable-color: "#6a0dad"
+      history-unknown-color: "#6b5b7a"
+      energy-grid-consumption-color: "#a319c4"
+      energy-grid-return-color: "#00f5a0"
+      energy-solar-color: "#ffcc00"
+      energy-battery-out-color: "#ff2079"
+      energy-battery-in-color: "#e01e84"
+      energy-gas-color: "#c77dff"
+      energy-water-color: "#4ddbff"
+
+      # ----------------------------------------------------------------
+      #  Stati — fallback globali
+      # ----------------------------------------------------------------
+      state-icon-color: "#ff7ab6"
+      state-icon-active-color: "#ff2079"
+      state-active-color: "#ff2079"
+      state-inactive-color: "#6b5b7a"
+      state-unavailable-color: "#6a0dad"
+      state-icon-unavailable-color: "#6a0dad"
+
+      # ----------------------------------------------------------------
+      #  Stati — per dominio
+      # ----------------------------------------------------------------
+      state-alarm_control_panel-armed_away-color: "#00f5a0"
+      state-alarm_control_panel-armed_custom_bypass-color: "#00f5a0"
+      state-alarm_control_panel-armed_home-color: "#00f5a0"
+      state-alarm_control_panel-armed_night-color: "#00f5a0"
+      state-alarm_control_panel-armed_vacation-color: "#00f5a0"
+      state-alarm_control_panel-arming-color: "#ffcc00"
+      state-alarm_control_panel-disarmed-color: "#ff2079"
+      state-alarm_control_panel-disarming-color: "#ffcc00"
+      state-alarm_control_panel-pending-color: "#ffcc00"
+      state-alarm_control_panel-triggered-color: "#ff3131"
+
+      state-alert-off-color: "#6b5b7a"
+      state-alert-on-color: "#ff3131"
+
+      state-automation-active-color: "#ff2079"
+
+      state-binary_sensor-active-color: "#ff2079"
+      state-binary_sensor-battery-on-color: "#ff3131"
+      state-binary_sensor-carbon_monoxide-on-color: "#ff3131"
+      state-binary_sensor-gas-on-color: "#ff3131"
+      state-binary_sensor-heat-on-color: "#ff3131"
+      state-binary_sensor-moisture-on-color: "#ff3131"
+      state-binary_sensor-problem-on-color: "#ff3131"
+      state-binary_sensor-safety-on-color: "#ff3131"
+      state-binary_sensor-smoke-on-color: "#ff3131"
+      state-binary_sensor-sound-on-color: "#ffcc00"
+      state-binary_sensor-tamper-on-color: "#ff3131"
+
+      state-calendar-active-color: "#ff2079"
+      state-camera-active-color: "#ff2079"
+
+      state-climate-auto-color: "#00f5a0"
+      state-climate-cool-color: "#4ddbff"
+      state-climate-dry-color: "#ffcc00"
+      state-climate-fan_only-color: "#ff7ab6"
+      state-climate-heat-color: "#ff3131"
+      state-climate-heat_cool-color: "#c77dff"
+
+      state-cover-active-color: "#ff2079"
+      state-device_tracker-active-color: "#00f5a0"
+      state-device_tracker-home-color: "#00f5a0"
+      state-device_tracker-not_home-color: "#6b5b7a"
+      state-fan-active-color: "#ff2079"
+      state-group-active-color: "#ff2079"
+      state-humidifier-active-color: "#ff2079"
+      state-input_boolean-active-color: "#ff2079"
+
+      state-light-active-color: "#fff275"
+
+      state-lock-jammed-color: "#ff3131"
+      state-lock-locked-color: "#00f5a0"
+      state-lock-locking-color: "#ffcc00"
+      state-lock-open-color: "#ff3131"
+      state-lock-opening-color: "#ffcc00"
+      state-lock-unlocked-color: "#ff3131"
+      state-lock-unlocking-color: "#ffcc00"
+
+      state-media_player-active-color: "#ff2079"
+      state-person-active-color: "#00f5a0"
+      state-person-home-color: "#00f5a0"
+      state-person-not_home-color: "#6b5b7a"
+      state-plant-active-color: "#ff3131"
+      state-remote-active-color: "#ff2079"
+      state-schedule-active-color: "#ff2079"
+      state-script-active-color: "#ff2079"
+      state-siren-active-color: "#ff3131"
+      state-sun-above_horizon-color: "#ffcc00"
+      state-sun-below_horizon-color: "#a319c4"
+      state-switch-active-color: "#ff2079"
+      state-timer-active-color: "#ff2079"
+      state-timer-paused-color: "#ffcc00"
+
+      state-update-active-color: "#ffcc00"
+      state-update-installing-color: "#ff2079"
+      state-update-off-color: "#6b5b7a"
+
+      state-vacuum-active-color: "#ff2079"
+
+      # ----------------------------------------------------------------
+      #  Badge e label
+      # ----------------------------------------------------------------
+      label-badge-background-color: "#33095e"
+      label-badge-text-color: "#ffd3e8"
+      label-badge-red: "#ff3131"
+      label-badge-green: "#00f5a0"
+      label-badge-blue: "#e01e84"
+      label-badge-yellow: "#ffcc00"
+      label-badge-grey: "#6a0dad"
