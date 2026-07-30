@@ -6,11 +6,11 @@
 #  S4 #5d8d90  S5 #83aeae  S6 #b4d0cd  S7 #e9f3f0
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #d9646a  ocra #e0ad55  verde #7fbf7a  luce accesa #edc96a
+#  rosso #d9646a  ocra #e0ad55  verde #7fbf7a  acceso #edc96a
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Petrolio:
@@ -219,10 +219,10 @@ Petrolio:
       state-device_tracker-active-color: "#7fbf7a"
       state-device_tracker-home-color: "#7fbf7a"
       state-device_tracker-not_home-color: "#5e7276"
-      state-fan-active-color: "#83aeae"
+      state-fan-active-color: "#edc96a"
       state-group-active-color: "#83aeae"
       state-humidifier-active-color: "#83aeae"
-      state-input_boolean-active-color: "#83aeae"
+      state-input_boolean-active-color: "#edc96a"
 
       state-light-active-color: "#edc96a"
 
@@ -245,7 +245,7 @@ Petrolio:
       state-siren-active-color: "#d9646a"
       state-sun-above_horizon-color: "#e0ad55"
       state-sun-below_horizon-color: "#417076"
-      state-switch-active-color: "#83aeae"
+      state-switch-active-color: "#edc96a"
       state-timer-active-color: "#83aeae"
       state-timer-paused-color: "#e0ad55"
 

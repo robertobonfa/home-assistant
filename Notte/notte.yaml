@@ -6,11 +6,11 @@
 #  S4 #5a6ac9  S5 #8b9ae8  S6 #c3ccf7  S7 #f0f3ff
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #e5556a  ocra #edb54b  verde #5cc99a  luce accesa #f2d16b
+#  rosso #e5556a  ocra #edb54b  verde #5cc99a  acceso #f2d16b
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Notte:
@@ -219,10 +219,10 @@ Notte:
       state-device_tracker-active-color: "#5cc99a"
       state-device_tracker-home-color: "#5cc99a"
       state-device_tracker-not_home-color: "#5a6076"
-      state-fan-active-color: "#8b9ae8"
+      state-fan-active-color: "#f2d16b"
       state-group-active-color: "#8b9ae8"
       state-humidifier-active-color: "#8b9ae8"
-      state-input_boolean-active-color: "#8b9ae8"
+      state-input_boolean-active-color: "#f2d16b"
 
       state-light-active-color: "#f2d16b"
 
@@ -245,7 +245,7 @@ Notte:
       state-siren-active-color: "#e5556a"
       state-sun-above_horizon-color: "#edb54b"
       state-sun-below_horizon-color: "#3a4494"
-      state-switch-active-color: "#8b9ae8"
+      state-switch-active-color: "#f2d16b"
       state-timer-active-color: "#8b9ae8"
       state-timer-paused-color: "#edb54b"
 

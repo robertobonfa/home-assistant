@@ -6,11 +6,11 @@
 #  S4 #83905e  S5 #a4ad80  S6 #c8cea8  S7 #f1f2e1
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #cf5b4e  ocra #e8a33d  verde #7ec46a  luce accesa #f2d65e
+#  rosso #cf5b4e  ocra #e8a33d  verde #7ec46a  acceso #f2d65e
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Oliva:
@@ -219,10 +219,10 @@ Oliva:
       state-device_tracker-active-color: "#7ec46a"
       state-device_tracker-home-color: "#7ec46a"
       state-device_tracker-not_home-color: "#6b6f52"
-      state-fan-active-color: "#a4ad80"
+      state-fan-active-color: "#f2d65e"
       state-group-active-color: "#a4ad80"
       state-humidifier-active-color: "#a4ad80"
-      state-input_boolean-active-color: "#a4ad80"
+      state-input_boolean-active-color: "#f2d65e"
 
       state-light-active-color: "#f2d65e"
 
@@ -245,7 +245,7 @@ Oliva:
       state-siren-active-color: "#cf5b4e"
       state-sun-above_horizon-color: "#e8a33d"
       state-sun-below_horizon-color: "#687244"
-      state-switch-active-color: "#a4ad80"
+      state-switch-active-color: "#f2d65e"
       state-timer-active-color: "#a4ad80"
       state-timer-paused-color: "#e8a33d"
 
