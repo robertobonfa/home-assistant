@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-label="Brughiera palette">
+  <title>Brughiera — palette</title>
+  <rect width="880" height="190" rx="12" fill="#26232e"/>
+
+  <text x="24" y="34" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15"
+        font-weight="600" fill="#f0eef7" letter-spacing="2.4">BRUGHIERA</text>
+  <text x="24" y="54" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11"
+        fill="#c9c5db">Home Assistant theme · wallpapers.robertobonfa.com</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#c9c5db">
+    <g>
+      <rect x="24"  y="72" width="98" height="52" rx="6" fill="#26232e" stroke="#524d68" stroke-width="1"/>
+      <text x="32" y="140">#26232e</text>
+    </g>
+    <rect x="130" y="72" width="98" height="52" rx="6" fill="#3b3749"/>
+    <text x="138" y="140">#3b3749</text>
+
+    <rect x="236" y="72" width="98" height="52" rx="6" fill="#524d68"/>
+    <text x="244" y="140">#524d68</text>
+
+    <rect x="342" y="72" width="98" height="52" rx="6" fill="#6b6488"/>
+    <text x="350" y="140">#6b6488</text>
+
+    <rect x="448" y="72" width="98" height="52" rx="6" fill="#8781a5"/>
+    <text x="456" y="140">#8781a5</text>
+
+    <rect x="554" y="72" width="98" height="52" rx="6" fill="#a5a0c0"/>
+    <text x="562" y="140">#a5a0c0</text>
+
+    <rect x="660" y="72" width="98" height="52" rx="6" fill="#c9c5db"/>
+    <text x="668" y="140">#c9c5db</text>
+
+    <rect x="766" y="72" width="90" height="52" rx="6" fill="#f0eef7"/>
+    <text x="774" y="140">#f0eef7</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">
+    <rect x="24"  y="152" width="26" height="14" rx="4" fill="#cf6470"/>
+    <text x="56"  y="163" fill="#c9c5db">error</text>
+    <rect x="112" y="152" width="26" height="14" rx="4" fill="#ddab55"/>
+    <text x="144" y="163" fill="#c9c5db">warning</text>
+    <rect x="212" y="152" width="26" height="14" rx="4" fill="#7fb98a"/>
+    <text x="244" y="163" fill="#c9c5db">success</text>
+    <rect x="312" y="152" width="26" height="14" rx="4" fill="#ecc76d"/>
+    <text x="344" y="163" fill="#c9c5db">light on</text>
+  </g>
+</svg>
