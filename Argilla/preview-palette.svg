@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-label="Argilla palette">
+  <title>Argilla — palette</title>
+  <rect width="880" height="190" rx="12" fill="#2b1a16"/>
+
+  <text x="24" y="34" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15"
+        font-weight="600" fill="#f6ecdf" letter-spacing="2.4">ARGILLA</text>
+  <text x="24" y="54" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11"
+        fill="#ddc1a8">Home Assistant theme · wallpapers.robertobonfa.com</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#ddc1a8">
+    <g>
+      <rect x="24"  y="72" width="98" height="52" rx="6" fill="#2b1a16" stroke="#6d4536" stroke-width="1"/>
+      <text x="32" y="140">#2b1a16</text>
+    </g>
+    <rect x="130" y="72" width="98" height="52" rx="6" fill="#4c2e25"/>
+    <text x="138" y="140">#4c2e25</text>
+
+    <rect x="236" y="72" width="98" height="52" rx="6" fill="#6d4536"/>
+    <text x="244" y="140">#6d4536</text>
+
+    <rect x="342" y="72" width="98" height="52" rx="6" fill="#8d5c48"/>
+    <text x="350" y="140">#8d5c48</text>
+
+    <rect x="448" y="72" width="98" height="52" rx="6" fill="#a97862"/>
+    <text x="456" y="140">#a97862</text>
+
+    <rect x="554" y="72" width="98" height="52" rx="6" fill="#c69a82"/>
+    <text x="562" y="140">#c69a82</text>
+
+    <rect x="660" y="72" width="98" height="52" rx="6" fill="#ddc1a8"/>
+    <text x="668" y="140">#ddc1a8</text>
+
+    <rect x="766" y="72" width="90" height="52" rx="6" fill="#f6ecdf"/>
+    <text x="774" y="140">#f6ecdf</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">
+    <rect x="24"  y="152" width="26" height="14" rx="4" fill="#d4453f"/>
+    <text x="56"  y="163" fill="#ddc1a8">error</text>
+    <rect x="112" y="152" width="26" height="14" rx="4" fill="#e8b13c"/>
+    <text x="144" y="163" fill="#ddc1a8">warning</text>
+    <rect x="212" y="152" width="26" height="14" rx="4" fill="#7fa860"/>
+    <text x="244" y="163" fill="#ddc1a8">success</text>
+    <rect x="312" y="152" width="26" height="14" rx="4" fill="#f0c46a"/>
+    <text x="344" y="163" fill="#ddc1a8">light on</text>
+  </g>
+</svg>
