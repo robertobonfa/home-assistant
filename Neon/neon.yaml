@@ -6,11 +6,11 @@
 #  S4 #e01e84  S5 #ff2079  S6 #ff7ab6  S7 #ffd3e8
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #ff3131  ocra #ffcc00  verde #00f5a0  luce accesa #fff275
+#  rosso #ff3131  ocra #ffcc00  verde #00f5a0  acceso #fff275
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Neon:
@@ -219,10 +219,10 @@ Neon:
       state-device_tracker-active-color: "#00f5a0"
       state-device_tracker-home-color: "#00f5a0"
       state-device_tracker-not_home-color: "#6b5b7a"
-      state-fan-active-color: "#ff2079"
+      state-fan-active-color: "#fff275"
       state-group-active-color: "#ff2079"
       state-humidifier-active-color: "#ff2079"
-      state-input_boolean-active-color: "#ff2079"
+      state-input_boolean-active-color: "#fff275"
 
       state-light-active-color: "#fff275"
 
@@ -245,7 +245,7 @@ Neon:
       state-siren-active-color: "#ff3131"
       state-sun-above_horizon-color: "#ffcc00"
       state-sun-below_horizon-color: "#a319c4"
-      state-switch-active-color: "#ff2079"
+      state-switch-active-color: "#fff275"
       state-timer-active-color: "#ff2079"
       state-timer-paused-color: "#ffcc00"
 

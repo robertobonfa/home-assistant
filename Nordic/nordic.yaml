@@ -10,7 +10,7 @@
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.1
+#  Versione: 1.1.0
 # ============================================================================
 
 Nordic:
@@ -219,10 +219,10 @@ Nordic:
       state-device_tracker-active-color: "#a3be8c"
       state-device_tracker-home-color: "#a3be8c"
       state-device_tracker-not_home-color: "#6b7689"
-      state-fan-active-color: "#94bad3"
+      state-fan-active-color: "#b48ead"
       state-group-active-color: "#94bad3"
       state-humidifier-active-color: "#94bad3"
-      state-input_boolean-active-color: "#94bad3"
+      state-input_boolean-active-color: "#b48ead"
 
       state-light-active-color: "#b48ead"
 
@@ -245,7 +245,7 @@ Nordic:
       state-siren-active-color: "#bf616a"
       state-sun-above_horizon-color: "#ebcb8b"
       state-sun-below_horizon-color: "#5e81ac"
-      state-switch-active-color: "#94bad3"
+      state-switch-active-color: "#b48ead"
       state-timer-active-color: "#94bad3"
       state-timer-paused-color: "#ebcb8b"
 

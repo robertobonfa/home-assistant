@@ -6,11 +6,11 @@
 #  S4 #9f86c0  S5 #be95c4  S6 #e0b1cb  S7 #f7e8f0
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #e04f5f  ocra #e8b44c  verde #7fc09a  luce accesa #f3cf6b
+#  rosso #e04f5f  ocra #e8b44c  verde #7fc09a  acceso #f3cf6b
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Lavanda:
@@ -219,10 +219,10 @@ Lavanda:
       state-device_tracker-active-color: "#7fc09a"
       state-device_tracker-home-color: "#7fc09a"
       state-device_tracker-not_home-color: "#6f6684"
-      state-fan-active-color: "#be95c4"
+      state-fan-active-color: "#f3cf6b"
       state-group-active-color: "#be95c4"
       state-humidifier-active-color: "#be95c4"
-      state-input_boolean-active-color: "#be95c4"
+      state-input_boolean-active-color: "#f3cf6b"
 
       state-light-active-color: "#f3cf6b"
 
@@ -245,7 +245,7 @@ Lavanda:
       state-siren-active-color: "#e04f5f"
       state-sun-above_horizon-color: "#e8b44c"
       state-sun-below_horizon-color: "#7d6ba0"
-      state-switch-active-color: "#be95c4"
+      state-switch-active-color: "#f3cf6b"
       state-timer-active-color: "#be95c4"
       state-timer-paused-color: "#e8b44c"
 

@@ -6,11 +6,11 @@
 #  S4 #a67f95  S5 #c19fae  S6 #dcc4cc  S7 #f7edef
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #d94452  ocra #ddaa55  verde #74b285  luce accesa #eac36a
+#  rosso #d94452  ocra #ddaa55  verde #74b285  acceso #eac36a
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Malva:
@@ -219,10 +219,10 @@ Malva:
       state-device_tracker-active-color: "#74b285"
       state-device_tracker-home-color: "#74b285"
       state-device_tracker-not_home-color: "#7a6a72"
-      state-fan-active-color: "#c19fae"
+      state-fan-active-color: "#eac36a"
       state-group-active-color: "#c19fae"
       state-humidifier-active-color: "#c19fae"
-      state-input_boolean-active-color: "#c19fae"
+      state-input_boolean-active-color: "#eac36a"
 
       state-light-active-color: "#eac36a"
 
@@ -245,7 +245,7 @@ Malva:
       state-siren-active-color: "#d94452"
       state-sun-above_horizon-color: "#ddaa55"
       state-sun-below_horizon-color: "#88627b"
-      state-switch-active-color: "#c19fae"
+      state-switch-active-color: "#eac36a"
       state-timer-active-color: "#c19fae"
       state-timer-paused-color: "#ddaa55"
 
