@@ -6,11 +6,11 @@
 #  S4 #8781a5  S5 #a5a0c0  S6 #c9c5db  S7 #f0eef7
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #cf6470  ocra #ddab55  verde #7fb98a  luce accesa #ecc76d
+#  rosso #cf6470  ocra #ddab55  verde #7fb98a  acceso #ecc76d
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Brughiera:
@@ -219,10 +219,10 @@ Brughiera:
       state-device_tracker-active-color: "#7fb98a"
       state-device_tracker-home-color: "#7fb98a"
       state-device_tracker-not_home-color: "#6b6878"
-      state-fan-active-color: "#a5a0c0"
+      state-fan-active-color: "#ecc76d"
       state-group-active-color: "#a5a0c0"
       state-humidifier-active-color: "#a5a0c0"
-      state-input_boolean-active-color: "#a5a0c0"
+      state-input_boolean-active-color: "#ecc76d"
 
       state-light-active-color: "#ecc76d"
 
@@ -245,7 +245,7 @@ Brughiera:
       state-siren-active-color: "#cf6470"
       state-sun-above_horizon-color: "#ddab55"
       state-sun-below_horizon-color: "#6b6488"
-      state-switch-active-color: "#a5a0c0"
+      state-switch-active-color: "#ecc76d"
       state-timer-active-color: "#a5a0c0"
       state-timer-paused-color: "#ddab55"
 

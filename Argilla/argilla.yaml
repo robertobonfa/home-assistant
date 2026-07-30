@@ -6,11 +6,11 @@
 #  S4 #a97862  S5 #c69a82  S6 #ddc1a8  S7 #f6ecdf
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #d4453f  ocra #e8b13c  verde #7fa860  luce accesa #f0c46a
+#  rosso #d4453f  ocra #e8b13c  verde #7fa860  acceso #f0c46a
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Argilla:
@@ -219,12 +219,12 @@ Argilla:
       state-device_tracker-active-color: "#7fa860"
       state-device_tracker-home-color: "#7fa860"
       state-device_tracker-not_home-color: "#85705f"
-      state-fan-active-color: "#c69a82"
+      state-fan-active-color: "#4fb3d9"
       state-group-active-color: "#c69a82"
       state-humidifier-active-color: "#c69a82"
-      state-input_boolean-active-color: "#c69a82"
+      state-input_boolean-active-color: "#4fb3d9"
 
-      state-light-active-color: "#f0c46a"
+      state-light-active-color: "#4fb3d9"
 
       state-lock-jammed-color: "#d4453f"
       state-lock-locked-color: "#7fa860"
@@ -245,7 +245,7 @@ Argilla:
       state-siren-active-color: "#d4453f"
       state-sun-above_horizon-color: "#e8b13c"
       state-sun-below_horizon-color: "#8d5c48"
-      state-switch-active-color: "#c69a82"
+      state-switch-active-color: "#4fb3d9"
       state-timer-active-color: "#c69a82"
       state-timer-paused-color: "#e8b13c"
 

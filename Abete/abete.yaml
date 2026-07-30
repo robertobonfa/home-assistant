@@ -6,11 +6,11 @@
 #  S4 #5d7e70  S5 #819f8f  S6 #aec6b8  S7 #e7f0ea
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #cf6058  ocra #dda44f  verde #9dc45f  luce accesa #e8c063
+#  rosso #cf6058  ocra #dda44f  verde #9dc45f  acceso #e8c063
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Abete:
@@ -219,10 +219,10 @@ Abete:
       state-device_tracker-active-color: "#9dc45f"
       state-device_tracker-home-color: "#9dc45f"
       state-device_tracker-not_home-color: "#5a6f66"
-      state-fan-active-color: "#819f8f"
+      state-fan-active-color: "#e8c063"
       state-group-active-color: "#819f8f"
       state-humidifier-active-color: "#819f8f"
-      state-input_boolean-active-color: "#819f8f"
+      state-input_boolean-active-color: "#e8c063"
 
       state-light-active-color: "#e8c063"
 
@@ -245,7 +245,7 @@ Abete:
       state-siren-active-color: "#cf6058"
       state-sun-above_horizon-color: "#dda44f"
       state-sun-below_horizon-color: "#426156"
-      state-switch-active-color: "#819f8f"
+      state-switch-active-color: "#e8c063"
       state-timer-active-color: "#819f8f"
       state-timer-paused-color: "#dda44f"
 

@@ -6,11 +6,11 @@
 #  S4 #468faf  S5 #61a5c2  S6 #a9d6e5  S7 #e8f7fa
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #e5586a  ocra #edb44f  verde #5fc9a0  luce accesa #f5d06a
+#  rosso #e5586a  ocra #edb44f  verde #5fc9a0  acceso #f5d06a
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Ghiaccio:
@@ -219,10 +219,10 @@ Ghiaccio:
       state-device_tracker-active-color: "#5fc9a0"
       state-device_tracker-home-color: "#5fc9a0"
       state-device_tracker-not_home-color: "#5c7d92"
-      state-fan-active-color: "#61a5c2"
+      state-fan-active-color: "#f5d06a"
       state-group-active-color: "#61a5c2"
       state-humidifier-active-color: "#61a5c2"
-      state-input_boolean-active-color: "#61a5c2"
+      state-input_boolean-active-color: "#f5d06a"
 
       state-light-active-color: "#f5d06a"
 
@@ -245,7 +245,7 @@ Ghiaccio:
       state-siren-active-color: "#e5586a"
       state-sun-above_horizon-color: "#edb44f"
       state-sun-below_horizon-color: "#2c7da0"
-      state-switch-active-color: "#61a5c2"
+      state-switch-active-color: "#f5d06a"
       state-timer-active-color: "#61a5c2"
       state-timer-paused-color: "#edb44f"
 
