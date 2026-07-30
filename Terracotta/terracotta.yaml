@@ -6,11 +6,11 @@
 #  S4 #e07a5f  S5 #eda47f  S6 #f2cc8f  S7 #f9f1de
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #d62839  ocra #f0a202  verde #6a994e  luce accesa #ffd166
+#  rosso #d62839  ocra #f0a202  verde #6a994e  acceso #ffd166
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Terracotta:
@@ -219,12 +219,12 @@ Terracotta:
       state-device_tracker-active-color: "#6a994e"
       state-device_tracker-home-color: "#6a994e"
       state-device_tracker-not_home-color: "#8a7b80"
-      state-fan-active-color: "#eda47f"
+      state-fan-active-color: "#5bc0be"
       state-group-active-color: "#eda47f"
       state-humidifier-active-color: "#eda47f"
-      state-input_boolean-active-color: "#eda47f"
+      state-input_boolean-active-color: "#5bc0be"
 
-      state-light-active-color: "#ffd166"
+      state-light-active-color: "#5bc0be"
 
       state-lock-jammed-color: "#d62839"
       state-lock-locked-color: "#6a994e"
@@ -245,7 +245,7 @@ Terracotta:
       state-siren-active-color: "#d62839"
       state-sun-above_horizon-color: "#f0a202"
       state-sun-below_horizon-color: "#c96a52"
-      state-switch-active-color: "#eda47f"
+      state-switch-active-color: "#5bc0be"
       state-timer-active-color: "#eda47f"
       state-timer-paused-color: "#f0a202"
 

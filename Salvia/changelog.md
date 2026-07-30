@@ -5,6 +5,19 @@ Tutte le modifiche rilevanti a questo tema sono documentate in questo file.
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.0] - 2026-07-30
+
+### Changed
+
+- Gli interruttori accesi usavano `#a5c3a0`, lo stesso salvia chiaro dello
+  stato attivo generico: su una palette monocromatica verde il cambio di stato
+  era praticamente invisibile. `state-switch-active-color` passa a `#e9c46a`,
+  lo stesso oro gia usato dalle luci.
+- Stesso trattamento a `state-input_boolean-active-color` e
+  `state-fan-active-color`: tutto cio che si comanda diventa caldo quando e
+  acceso. Gli stati passivi (sensori, automazioni, presenza) restano sul
+  salvia chiaro, cosi il caldo resta un segnale e non un colore di sfondo.
+
 ## [1.0.0] - 2026-07-26
 
 ### Added

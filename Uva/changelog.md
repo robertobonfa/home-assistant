@@ -5,6 +5,19 @@ Tutte le modifiche rilevanti a questo tema sono documentate in questo file.
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.0] - 2026-07-30
+
+### Changed
+
+- Gli interruttori accesi usavano `#c77dff`, lo stesso colore dello stato
+  attivo generico: il cambio di stato era poco leggibile, perche quel colore
+  appartiene alla rampa e si confonde con il resto dell'interfaccia.
+  `state-switch-active-color` passa a `#ffd166`.
+- Stesso trattamento a `state-input_boolean-active-color` e
+  `state-fan-active-color`: tutto cio che si comanda diventa caldo quando e
+  acceso. Gli stati passivi (sensori, automazioni, presenza) restano sul
+  colore della rampa, cosi il segnale resta tale e non diventa sfondo.
+
 ## [1.0.0] - 2026-07-26
 
 ### Added

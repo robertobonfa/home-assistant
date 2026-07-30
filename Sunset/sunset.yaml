@@ -6,11 +6,11 @@
 #  S4 #ee6c6b  S5 #ff9770  S6 #ffbe73  S7 #ffe8b0
 #
 #  Semantici (caldi e desaturati, per restare in famiglia con la rampa):
-#  rosso #e01e37  ocra #ffb703  verde #3fb98a  luce accesa #ffd166
+#  rosso #e01e37  ocra #ffb703  verde #3fb98a  acceso #ffd166
 #
 #  Autore: Roberto Bonfa — https://robertobonfa.com
 #  Licenza: MIT
-#  Versione: 1.0.0
+#  Versione: 1.1.0
 # ============================================================================
 
 Sunset:
@@ -219,12 +219,12 @@ Sunset:
       state-device_tracker-active-color: "#3fb98a"
       state-device_tracker-home-color: "#3fb98a"
       state-device_tracker-not_home-color: "#7a6a80"
-      state-fan-active-color: "#ff9770"
+      state-fan-active-color: "#4cc9f0"
       state-group-active-color: "#ff9770"
       state-humidifier-active-color: "#ff9770"
-      state-input_boolean-active-color: "#ff9770"
+      state-input_boolean-active-color: "#4cc9f0"
 
-      state-light-active-color: "#ffd166"
+      state-light-active-color: "#4cc9f0"
 
       state-lock-jammed-color: "#e01e37"
       state-lock-locked-color: "#3fb98a"
@@ -245,7 +245,7 @@ Sunset:
       state-siren-active-color: "#e01e37"
       state-sun-above_horizon-color: "#ffb703"
       state-sun-below_horizon-color: "#c94b7c"
-      state-switch-active-color: "#ff9770"
+      state-switch-active-color: "#4cc9f0"
       state-timer-active-color: "#ff9770"
       state-timer-paused-color: "#ffb703"
 
